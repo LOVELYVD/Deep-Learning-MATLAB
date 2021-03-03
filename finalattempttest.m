@@ -1,6 +1,6 @@
 clc;
 clear all;
-myFolder='C:\Users\pranoy\Documents\MATLAB\DRIMDB';
+myFolder='C:\Users\lovely\Documents\MATLAB\DRIMDB';
 filePattern = fullfile(myFolder, '*.jpg');
 %Select full file specification from a selected folder
 jpegFiles = dir(filePattern);
